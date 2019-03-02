@@ -3,6 +3,7 @@ package com.example.musicshop;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 public class OrderActivity extends AppCompatActivity {
@@ -23,5 +24,8 @@ public class OrderActivity extends AppCompatActivity {
 
         TextView orderTextView = findViewById(R.id.orderTextView);
         orderTextView.setText("Customer name: " + userName + "\n" + "Goods name: " + goodsName + "\n" + "Quantity: " + quantity + "\n" + "Price: " + price + "\n" + "Order price: " + orderPrice);
+    }
+
+    public void submitOrder(View view) {
     }
 }
