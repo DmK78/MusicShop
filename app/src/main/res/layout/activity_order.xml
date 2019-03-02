@@ -16,11 +16,18 @@
         android:textColor="@android:color/black"
         android:textSize="18sp"
         android:textStyle="bold" />
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
-        android:onClick="submitOrder"/>
+        android:layout_marginTop="35dp"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="submitOrder"
+        android:text="SUBMIT ORDER"
+
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
 
 
