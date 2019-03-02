@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Music Shop</string>
+    <string name="sale_30">Sale - 30%</string>
+    <string name="name">Your name</string>
+</resources>
