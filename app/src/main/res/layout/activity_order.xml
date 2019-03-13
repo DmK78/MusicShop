@@ -20,11 +20,13 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
         android:layout_marginTop="35dp"
+        android:layout_marginRight="8dp"
         android:background="@color/colorPrimaryDark"
+
         android:onClick="submitOrder"
         android:text="SUBMIT ORDER"
-
         android:textColor="@android:color/white"
         android:textSize="18sp"
         android:textStyle="bold" />
